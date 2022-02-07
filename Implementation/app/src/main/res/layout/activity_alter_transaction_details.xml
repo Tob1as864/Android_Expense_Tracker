@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".activity.AlterTransactionDetailsActivity">
+
+    <TextView
+        android:id="@+id/transactiondetailsactivity_textview_transactionid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transaction ID"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/transactiondetailsactivity_textview_showcategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transactiondetailsactivity_textview_transactionid" />
+
+    <EditText
+        android:id="@+id/transactiondetailsactivity_edittext_newtransactionvalue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Please enter new transaction value"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transactiondetailsactivity_textview_showcategory" />
+
+    <Button
+        android:id="@+id/transactiondetailsactivity_button_updatetransactionvalue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="setNewTransactionValue"
+        android:text="Update Transaction Value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transactiondetailsactivity_edittext_newtransactionvalue" />
+
+    <Button
+        android:id="@+id/transactiondetailsactivity_button_deletetransaction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="deleteSpecificTransaction"
+        android:text="Delete Transaction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transactiondetailsactivity_button_updatetransactionvalue" />
+
+    <TextView
+        android:id="@+id/transactiondetailsactivity_textview_showtransactionid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toEndOf="@+id/transactiondetailsactivity_textview_transactionid"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/altertransactiondetailsactivity_switch_inorout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="In or Out"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transactiondetailsactivity_textview_transactionid" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Money Monkey</string>
+    <string name="mainactivity_textview_instructions">Please enter your login data</string>
+    <string name="mainactivity_edittext_username">Username</string>
+    <string name="mainactivity_edittext_password">Password</string>
+    <string name="mainactivity_button_enter">Enter</string>
+    <string name="mainactivity_textview_loginerror">You entered the wrong login data\nPlease try it again</string>
+    <string name="activitydashboard_floatingactionbutton_addaccount">Add account</string>
+    <string name="accountitem_textview_writtenbalance">"Balance: "</string>
+    <string name="accountdetailsitem_textview_amounttext">Amount</string>
+    <string name="activitytransactiontypes_transaction_types">Categories</string>
+    <string name="taboverviewfragmentthreerecyclerviewadapter_onbindviewholder_notransactiontype">No transaction types in the database yet</string>
+    <string name="addtransactiontype_plaintext_hintaddtype">Enter Transaction Type</string>
+    <string name="addtransactiontype_button_addtype">Add</string>
+
+    //for dropdown menu purposes
+    <string-array name="addtransaction_selectincomeorexpense">
+        <item>in</item>
+        <item>out</item>
+    </string-array>
+
+    <string-array name="fragmentsummary_specifymonth">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <!-- Strings used for fragments for navigation -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

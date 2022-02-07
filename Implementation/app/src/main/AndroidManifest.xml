@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="at.ac.univie.expensetracker.moneymonkey">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MoneyMonkey">
+        <activity
+            android:name=".activity.AlterAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AlterExistingAccountTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AddTransactionActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.AccountDetailsActivity" />
+        <activity
+            android:name=".activity.CategoryActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.TabOverviewActivity" />
+        <activity
+            android:name=".activity.AlterCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AddNewCategoryActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.TabOverviewActivity" />
+        <activity
+            android:name=".activity.AddNewAccountActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.TabOverviewActivity" />
+        <activity
+            android:name=".activity.AddNewAccountTypeActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.AddNewAccountActivity" />
+        <activity
+            android:name=".activity.AlterTransactionDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AccountDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TabOverviewActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.LoginActivity" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Arbeitsunterlagen/SE2 Git/SE2_Team_0103/implementation/SE2_AS/app/src/main/res/layout/activity_add_transaction.xml" value="0.20520833333333333" />
+        <entry key="..\:/Arbeitsunterlagen/SE2 Git/SE2_Team_0103/implementation/SE2_AS/app/src/main/res/layout/fragment_tab_overview_summary.xml" value="0.33" />
+        <entry key="..\:/Arbeitsunterlagen/SE2 Git/SE2_Team_0103/implementation/SE2_AS/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22135416666666666" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout-land/activity_add_new_account.xml" value="0.31040564373897706" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/account_details_item.xml" value="0.2875905797101449" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/account_item.xml" value="0.4713740458015267" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/account_type_item.xml" value="0.33605072463768115" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_account_details.xml" value="0.33" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_account_details2.xml" value="0.24166666666666667" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_add_new_account.xml" value="0.1" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_add_new_account_type.xml" value="0.33061594202898553" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_add_new_category.xml" value="0.24479166666666666" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_add_new_transaction_type.xml" value="0.3442028985507246" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_add_transaction.xml" value="0.24479166666666666" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_alter_account.xml" value="0.1" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_alter_existing_account_type.xml" value="0.25" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_alter_transaction_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_category_overview.xml" value="0.338768115942029" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_category_type_overview.xml" value="0.20520833333333333" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_dashboard.xml" value="0.2957427536231884" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_login.xml" value="0.20520833333333333" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_tab_overview.xml" value="0.25885416666666666" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_transaction_details.xml" value="0.24166666666666667" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/activity_transaction_types.xml" value="0.3541666666666667" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/fragment_first.xml" value="0.3654891304347826" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/fragment_second.xml" value="0.3654891304347826" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/fragment_tab_overview_account.xml" value="0.20520833333333333" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/fragment_tab_overview_fragement_one.xml" value="0.3509963768115942" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/fragment_tab_overview_fragment_three.xml" value="0.22774869109947643" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/fragment_tab_overview_summary.xml" value="0.20520833333333333" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/fragment_tab_overview_three.xml" value="0.3509963768115942" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/fragment_tab_overview_two.xml" value="0.3509963768115942" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/item_account.xml" value="0.24479166666666666" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/item_account_details.xml" value="0.33" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/transaction_type_item.xml" value="0.3541666666666667" />
+        <entry key="..\:/Arbeitsunterlagen/SE2_AS/app/src/main/res/layout/wordlist_item.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/elisa/Documents/Sicherung SE2/SE2_Team_0103/SE2_Team_0103/implementation/SE2_AS/app/src/main/res/layout/activity_alter_account.xml" value="0.10364583333333334" />
+        <entry key="..\:/Users/elisa/Documents/Sicherung SE2/SE2_Team_0103/SE2_Team_0103/implementation/SE2_AS/app/src/main/res/layout/activity_alter_category.xml" value="0.10364583333333334" />
+        <entry key="..\:/Users/elisa/Documents/Sicherung SE2/SE2_Team_0103/SE2_Team_0103/implementation/SE2_AS/app/src/main/res/layout/activity_alter_transaction_details.xml" value="0.215625" />
+        <entry key="app/src/main/res/layout/activity_add_new_account.xml" value="0.21197916666666666" />
+        <entry key="app/src/main/res/layout/activity_add_new_transaction_type.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_add_transaction.xml" value="0.2015625" />
+        <entry key="app/src/main/res/layout/activity_category_type_overview.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/dropdown_select_account.xml" value="0.2015625" />
+        <entry key="app/src/main/res/layout/dropdown_select_income_or_expense.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_tab_overview_account.xml" value="0.264945652173913" />
+        <entry key="app/src/main/res/layout/fragment_tab_overview_category.xml" value="0.21197916666666666" />
+        <entry key="app/src/main/res/layout/fragment_tab_overview_fragment_two.xml" value="0.21197916666666666" />
+        <entry key="app/src/main/res/layout/fragment_tab_overview_summary.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Downloads" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="false" />
+    <option name="OPTION_DEPRECATED_LIST" value="false" />
+    <option name="OPTION_INCLUDE_LIBS" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

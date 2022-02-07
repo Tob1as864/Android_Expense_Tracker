@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".fragment.TabOverviewSummaryFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fragmentsummary_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Customized Time Period"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/fragmentsummary_textview_customized_start_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select start date"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/fragmentsummary_specifcustomizeddateend_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:hint="Day"
+                    android:inputType="date"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/fragmentsummary_textview_customized_end_date" />
+
+                <EditText
+                    android:id="@+id/fragmentsummary_specifcustomizeddateend_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:hint="Month"
+                    android:inputType="date"
+                    app:layout_constraintStart_toEndOf="@+id/fragmentsummary_specifcustomizeddateend_day"
+                    app:layout_constraintTop_toBottomOf="@+id/fragmentsummary_textview_customized_end_date" />
+
+                <EditText
+                    android:id="@+id/fragmentsummary_specifcustomizeddateend_year"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:ems="4"
+                    android:hint="Year"
+                    android:inputType="date"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/fragmentsummary_specifcustomizeddateend_month"
+                    app:layout_constraintTop_toBottomOf="@+id/fragmentsummary_textview_customized_end_date" />
+
+                <TextView
+                    android:id="@+id/fragmentsummary_textview_customized_end_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select end date"
+                    app:layout_constraintTop_toBottomOf="@+id/fragmentsummary_specifcustomizeddatestart_day" />
+
+                <EditText
+                    android:id="@+id/fragmentsummary_specifcustomizeddatestart_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:hint="Day"
+                    android:inputType="date"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/fragmentsummary_textview_customized_start_date" />
+
+                <EditText
+                    android:id="@+id/fragmentsummary_specifcustomizeddatestart_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:hint="Month"
+                    android:inputType="date"
+                    app:layout_constraintStart_toEndOf="@+id/fragmentsummary_specifcustomizeddatestart_day"
+                    app:layout_constraintTop_toBottomOf="@+id/fragmentsummary_textview_customized_start_date" />
+
+                <EditText
+                    android:id="@+id/fragmentsummary_specifcustomizeddatestart_year"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:ems="4"
+                    android:hint="Year"
+                    android:inputType="date"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/fragmentsummary_specifcustomizeddatestart_month"
+                    app:layout_constraintTop_toBottomOf="@+id/fragmentsummary_textview_customized_start_date" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Button
+                android:id="@+id/fragmentsummary_button_apply_customized_selection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apply Customized Selection" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/fragmentsummary_button_dailyselection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="7"
+                    android:text="Daily"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/fragmentsummary_button_monthlyselection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="7"
+                    android:text="Monthly"
+                    app:layout_constraintEnd_toStartOf="@+id/fragmentsummary_button_yearlyselection"
+                    app:layout_constraintStart_toEndOf="@+id/fragmentsummary_button_dailyselection"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/fragmentsummary_button_yearlyselection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="7"
+                    android:text="Yearly"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/fragmentsummary_barchart_graph"
+                android:layout_width="match_parent"
+                android:layout_height="400dp" />
+
+
+            <Button
+                android:id="@+id/fragmentsummary_button_switch_income_expense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Switch to Income" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/fragment_tab_overview_fragment_two_piechart"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:text="Second Fragment" >
+
+            </com.github.mikephil.charting.charts.PieChart>
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/fragment_tab_overview_fragment_two_barchart"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:text="Second Fragment" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

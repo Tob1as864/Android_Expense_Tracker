@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".activity.AlterAccountActivity">
+
+    <TextView
+        android:id="@+id/activityalteraccount_textview_accountname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/activityalteraccount_edittext_newaccountname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Please enter new account name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityalteraccount_textview_accountname" />
+
+    <Button
+        android:id="@+id/activityalternewaccount_button_updateaccountname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Update Name"
+        android:onClick="updateAccountName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityalteraccount_edittext_newaccountname" />
+
+    <Button
+        android:id="@+id/activityalteraccount_button_deleteaccount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Delete Account"
+        android:onClick="deleteAccount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityalternewaccount_button_updateaccountname" />
+</androidx.constraintlayout.widget.ConstraintLayout>
